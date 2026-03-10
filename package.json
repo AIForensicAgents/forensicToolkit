@@ -1,0 +1,27 @@
+{
+  "name": "forensic-toolkit",
+  "version": "1.0.0",
+  "description": "An Extensible Digital Forensics Toolkit by AI Forensic Agents",
+  "main": "index.js",
+  "bin": {
+    "forensic-toolkit": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "list": "node index.js list",
+    "test": "node test/run-tests.js"
+  },
+  "keywords": [
+    "forensics",
+    "digital-forensics",
+    "toolkit",
+    "cybersecurity",
+    "incident-response",
+    "dfir"
+  ],
+  "author": "AI Forensic Agents",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
